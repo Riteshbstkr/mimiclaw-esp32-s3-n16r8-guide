@@ -48,7 +48,7 @@ This confirms it is an ESP32-S3. The `N16R8` marking means 16 MB flash and 8 MB 
 
 Flashing one combined firmware image completed successfully but did not result in a visible MimiClaw Wi-Fi network on this generic board. Flashing the official release images at their individual addresses produced a normal boot and the setup access point.
 
-Download the following MimiClaw **v0.1.1** release files from the project's Releases page [https://github.com/memovai/mimiclaw/releases]:
+Download the following MimiClaw **v0.1.1** release files from the project's [Releases page] (https://github.com/memovai/mimiclaw/releases):
 
 | Flash address | File |
 | ---: | --- |
