@@ -1,0 +1,7 @@
+# Never commit firmware downloads or secrets
+*.bin
+*.elf
+*.map
+.env
+secrets.*
+wifi-credentials.*
