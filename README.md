@@ -110,6 +110,8 @@ The setup page also asks for a model provider and API key. At the time of writin
 It uses one of these cloud services as the language-model brain. ChatGPT Plus and a Claude chat subscription do not automatically include API use. Do not post an API key in an issue, a GitHub repository, screenshot, or chat message.
 
 If you do not want to use either provider, stop at this point. The board and portal are working, but MimiClaw cannot answer messages without a supported AI provider.
+For Telegram bot Token: Go to Telegram app> Message to 'BotFather'@BotFather > /newbot >Enter name of bot ending with bot
+For Browser APIs, we used Tavily : [Tavily](https://www.tavily.com/) 
 
 ## Troubleshooting
 
