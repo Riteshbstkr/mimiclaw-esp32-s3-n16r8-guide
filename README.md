@@ -2,7 +2,7 @@
 
 A beginner-friendly record of installing [MimiClaw](https://github.com/memovai/mimiclaw) on a generic ESP32-S3 N16R8 board from Windows 10, using only a web browser.
 
-> **Project status:** The board successfully booted MimiClaw and started its Wi-Fi setup portal. The project was intentionally stopped before AI-provider configuration. MimiClaw currently needs an API key from either OpenAI or Anthropic (Claude) for its AI responses; it does not run a powerful chat model entirely on the ESP32-S3.
+> **Project status:** The board successfully booted MimiClaw and started its Wi-Fi setup portal. MimiClaw needs an API key from either OpenAI or Anthropic (Claude) for its AI responses; it does not run a powerful chat model entirely on the ESP32-S3.
 
 ## What this guide covers
 
@@ -62,7 +62,7 @@ Download the following MimiClaw **v0.1.1** release files from the project's Rele
 
 1. In ESP Tool, click **Connect**.
 2. Keep Flash Mode, Flash Frequency, and Flash Size set to `keep`.
-3. For each row above, enter the flash address, choose the matching file, then click **Add File** for the next row.
+3. For each row above, enter the flash address, choose the matching file, for example, `0x0` for  `bootloader-v0.1.1.bin`  then click **Add File** for the next row.
 4. Do **not** select **Erase all**.
 5. Click **Program** and wait for completion.
 6. A good result ends with lines similar to:
