@@ -2,7 +2,7 @@
 
 A beginner-friendly record of installing [MimiClaw](https://github.com/memovai/mimiclaw) on a generic ESP32-S3 N16R8 board from Windows 10, using only a web browser.
 
-> **Project status:** The board successfully booted MimiClaw and started its Wi-Fi setup portal. MimiClaw needs an API key from either OpenAI or Anthropic (Claude) for its AI responses; it does not run a powerful chat model entirely on the ESP32-S3.
+> **Project status:** The board successfully booted MimiClaw and started its Wi-Fi setup portal. Telegram chatbot successfully worked. MimiClaw needs an API key from either OpenAI or Anthropic (Claude) for its AI responses; it does not run a powerful chat model entirely on the ESP32-S3.
 
 ## What this guide covers
 
